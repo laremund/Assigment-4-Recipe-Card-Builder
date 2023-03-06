@@ -1,0 +1,62 @@
+
+CHECKLIST
+----------------------------------
+{DONE} > Set up create_recipe.html as well as I can right now
+{DONE} > Write recipe object code for recipe.js, as well as event listeners to store the data for the object
+{DONE}> Add stuff to create_recipe.html needed for recipe.js to retrieve the data
+> Style / add stuff to create_recipe.html needed to style
+    > Need to fix the problem with the title going through as undefined
+    > Need to prevent empty fields from being submitted as ingredients
+    and instructions
+> Make accessible
+
+----------------------------------
+> MVP is something that allows users to produce recipe cards, which
+consist of a list of ingredients and the instructions for a single recipe
+> One function is provided for me called writeRecipeToFile
+
+----------------------------------
+    writeRecipeToFile (an object that contains the info for the recipe)
+----------------------------------
+> Function expects the object to be in the following shape:
+----------------------------------
+    {
+        name: "Name of the Recipe",
+        ingredients: [
+            "Ingredient 1",
+            "Ingredient 2",
+            "Ingredient 3"
+        ],
+        instructions: [
+            "Step 1",
+            "Step 2",
+            "Step 3"
+        ]
+    }
+----------------------------------
+> App needs to let the user
+    1. Add an ingredient 
+    2. Remove an ingredient
+    3. Add an instruction
+    4. Remove an instruction
+    5. Export the recipe to a recipe card (using writeRecipeToFile)
+    6. Allow the user to perform all of the operations in an accessible
+    way
+    7. Reset all fields to begin a new recipe
+
+> CHECK OUT HINTS IF I'M STUCK ON ADDING AND REMOVING STUFF
+----------------------------------
+
+Accessibility:
+- - - - - - - - - - - - - - - - - -
+1. Good color selection
+2. Keyboard interactivity:
+    > Use tab for navigation
+    > Use spacebar to click
+3. Screenreader support
+    > Using the Screenreader, the user needs to be able to tell what's
+    happening
+    > Use Aria (remember that aria-live is a thing)
+
+> Use that one tool thing for web sites that evaluates how accessible
+pages are 
