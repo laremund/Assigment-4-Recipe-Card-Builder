@@ -1,17 +1,18 @@
 /* Color Palette Variables */
 :root {
     --cream: rgb(255,251,235);
-    --blue: rgb(73,85,121);
-    --darker-blue: rgb(38,49,89);
-    --darkest-blue: rgb(37,23,73);
+    --almost-black: #212121;
+    --dark-gray: #494440;
+    --gray-kinda-blue: #3d4654;
 }
 
+/* Main Section */
 body {
-    background-color: var(--cream);
+    background-color: var(--almost-black);
 }
 
 .container {
-    background-color: var(--darkest-blue);
+    background-color: var(--gray-kinda-blue);
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 10px;
@@ -19,8 +20,9 @@ body {
 }
 
 h1 {
-    background-color: var(--blue);
+    background-color: var(--almost-black);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 10px;
@@ -33,6 +35,7 @@ h1 {
     margin-right: 15%;
 }
 
+/* Recipe Input */
 #title {
     border-style: solid;
     border-color: var(--blue);
@@ -55,6 +58,7 @@ h1 {
 button {
     background-color: var(--cream);
     cursor: pointer;
+    font-weight: 200;
 }
 
 #add-ingredient, #add-instruction {
@@ -70,7 +74,7 @@ button {
 }
 
 #ingredient_list, #instruction_list {
-    background-color: var(--darkest-blue);
+    background-color: var(--almost-black);
     border-color: white;
     border-style: dashed;
     border-width: 1px;
@@ -78,6 +82,7 @@ button {
     min-height: 100px;
 }
 
+/* New Divs Representing Ingredients and Instructions */
 .new_divs {
     background-color: var(--cream);
     margin: 2px;
@@ -89,6 +94,7 @@ button {
     cursor: pointer;
 }
 
+/* Submit and Reset Form Buttons */
 #final_buttons {
     display: flex;
     justify-content: right;

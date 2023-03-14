@@ -21,6 +21,7 @@ document.getElementById("add-ingredient").addEventListener("click", () => {
     // Create an element to take space on the page for the ingredient
     const myElement = document.createElement("div");
     myElement.setAttribute("class", "new_divs");
+    myElement.setAttribute("aria-live", "assertive");
 
     // If element is clicked on, remove it
     myElement.addEventListener("click", () => {
@@ -50,6 +51,7 @@ document.getElementById("add-instruction").addEventListener("click", () => {
     // Create an element to take space on the page for the instruction
     const myElement = document.createElement("div");
     myElement.setAttribute("class", "new_divs");
+    myElement.setAttribute("aria-live", "assertive");
 
     // If the element is clicked on, remove it
     myElement.addEventListener("click", () => {
