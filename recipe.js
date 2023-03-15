@@ -21,7 +21,7 @@ document.getElementById("add-ingredient").addEventListener("click", () => {
     // Create an element to take space on the page for the ingredient
     const myElement = document.createElement("div");
     myElement.setAttribute("class", "new_divs");
-    myElement.setAttribute("aria-live", "assertive");
+    myElement.setAttribute("aria-label", "Ingredient Added");
 
     // If element is clicked on, remove it
     myElement.addEventListener("click", () => {

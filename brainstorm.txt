@@ -4,11 +4,11 @@ CHECKLIST
 {DONE} > Set up create_recipe.html as well as I can right now
 {DONE} > Write recipe object code for recipe.js, as well as event listeners to store the data for the object
 {DONE}> Add stuff to create_recipe.html needed for recipe.js to retrieve the data
-> Style / add stuff to create_recipe.html needed to style
+{DONE}> Style / add stuff to create_recipe.html needed to style
     > Need to fix the problem with the title going through as undefined
     > Need to prevent empty fields from being submitted as ingredients
     and instructions
-> Make accessible
+{DONE}> Make accessible
 
 ----------------------------------
 > MVP is something that allows users to produce recipe cards, which
